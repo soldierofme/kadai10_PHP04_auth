@@ -9,7 +9,7 @@ function h($str)
 function db_conn()
 {
   try {
-    $db_name =  'info-deploy_test-database';            //データベース名
+    $db_name =  'info-deploy_gs_db4';            //データnース名
     $db_host =  'mysql57.info-deploy.sakura.ne.jp';  //DBホスト
     $db_id =    'info-deploy';                //アカウント名(登録しているドメイン)
     $db_pw =    'InMiKoOt0718';           //さくらサーバのパスワード
